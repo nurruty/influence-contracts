@@ -1,0 +1,28 @@
+{
+  "name": "influence-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nurruty/influence-contracts.git"
+  },
+  "author": "Nicolas Urruty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurruty/influence-contracts/issues"
+  },
+  "homepage": "https://github.com/nurruty/influence-contracts#readme",
+  "dependencies": {
+    "ganache-cli": "^6.1.8",
+    "openzeppelin-solidity": "^1.12.0",
+    "web3": "^1.0.0-beta.36"
+  }
+}
